@@ -1,0 +1,230 @@
+.video-icon {
+  height: 464px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 335px;
+}
+
+.avatar-of-team {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  object-fit: cover;
+}
+
+.heading-4 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+}
+
+.divall-testimonials-box-nam {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.symbol {
+  margin: 0;
+  width: 62px;
+  position: relative;
+  font-size: var(--font-size-43xl);
+  line-height: 62px;
+  font-weight: 400;
+  font-family: var(--body300-rg);
+  color: var(--color-royalblue);
+}
+
+.name-container {
+  display: flex;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.osumares-expertise-in {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+}
+
+.p,
+.testimonial-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.p {
+  align-self: stretch;
+  font-size: var(--h300-bold-size);
+  font-family: var(--body300-rg);
+}
+
+.testimonial-name {
+  width: 397px;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+
+.card-top,
+.testimonial-card {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.card-top {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px 30px;
+}
+
+.testimonial-card {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-25xl);
+  box-sizing: border-box;
+}
+
+.scroll-buttion-icon,
+.scroll-buttion-icon1 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  min-height: 60px;
+  cursor: pointer; 
+}
+
+.scroll-buttion-icon1 {
+  object-fit: contain;
+}
+
+.navigation-controls,
+.testimonial-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.navigation-controls {
+  width: 152px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.testimonial-navigation {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+
+.carousel-content,
+.testimonial-carousel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.carousel-content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-20xl);
+}
+
+.testimonial-carousel {
+  width: 1235px;
+  flex-direction: row;
+  padding: 0 var(--padding-40xl) var(--padding-77xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h200-semi-size);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1200px) {
+  .testimonial-card {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+
+  .testimonial-carousel {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .symbol {
+    font-size: var(--font-size-31xl);
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .testimonial-card {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+
+  .carousel-content {
+    gap: var(--gap-lgi);
+  }
+
+  .testimonial-carousel {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .video-icon {
+    max-width: 100%;
+  }
+
+  .symbol {
+    font-size: var(--font-size-18xl);
+    line-height: 37px;
+  }
+
+  .name-container {
+    flex-wrap: wrap;
+  }
+
+  .osumares-expertise-in {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}
+.video-icon {
+  height: 464px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 335px;
+  cursor: pointer; 
+}

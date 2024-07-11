@@ -1,0 +1,107 @@
+.our-service-offerings,
+.strategies-that-drive {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.strategies-that-drive {
+  height: 44px;
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.header,
+.service-cards {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.service-cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px 28.7px;
+  min-height: 510px;
+  font-size: var(--h200-semi-size);
+}
+.m-buttons1 {
+  width: 233px;
+  height: 61px;
+}
+.content-wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-49xl);
+}
+.services,
+.services-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.services-section {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-72xl) var(--padding-62xl);
+}
+.services {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-42xl-5);
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1050px) {
+  .our-service-offerings {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .services-section {
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+  .services {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content-wrapper1 {
+    gap: var(--gap-15xl);
+  }
+  .services-section {
+    padding: var(--padding-19xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .services {
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-service-offerings,
+  .strategies-that-drive {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .content-wrapper1 {
+    gap: var(--gap-mid);
+  }
+}

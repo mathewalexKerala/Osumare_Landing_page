@@ -1,0 +1,65 @@
+.how-does-osumare {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.symbol1 {
+  position: relative;
+  line-height: 20px;
+  transform: rotate(180deg);
+}
+.ifa-solid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--body300-rg);
+}
+.how-does-osumare-measure-campa-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.p1 {
+  width: 474px;
+  height: 23px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 45px;
+  z-index: 1;
+}
+.divfaq-box-question {
+  align-self: stretch;
+  box-shadow: 0 10px 15px rgba(0, 120, 255, 0.35);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-30xl) var(--padding-xl)
+    var(--padding-26xl);
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--h200-semi-size);
+  color: var(--color-gray-500);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1050px) {
+  .divfaq-box-question {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .symbol1 {
+    font-size: var(--body300-rg-size);
+    line-height: 16px;
+  }
+}

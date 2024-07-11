@@ -1,0 +1,60 @@
+.card-list-child {
+  height: 52px;
+  width: 52px;
+  position: relative;
+}
+.market-trends-analysis {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.predictive-insights-to {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body300-rg-size);
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-family: var(--h200-blod);
+  color: var(--color-darkslategray-100);
+}
+.trend-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 295px;
+  max-width: 100%;
+}
+.card-list {
+  align-self: stretch;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-24xl) var(--padding-12xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h300-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .card-list {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .market-trends-analysis {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}
