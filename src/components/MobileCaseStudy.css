@@ -66,10 +66,16 @@
     line-height: 38px;
   }
 }
+@media (max-width:522px){
+  .expertise-icons1{
+    justify-content: center;
+  }
+}
 @media (min-width:470px) and (max-width:527px){
   .mobile-button{
    margin-top: 20%;
   }
+  
 }
 
 @media (min-width:450px) and (max-width:470px){
