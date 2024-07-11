@@ -220,14 +220,6 @@
     margin-top:30%
   }
 }
-@media (min-width:450px) and (max-width:480px){
-  .in-the-dynamic{
-    width: auto !important;
-  }
-  .m-buttons2{
-    margin-top:38%
-  }
-}
 @media screen and (max-width: 450px) {
   .in-the-dynamic{
     width: auto !important;
@@ -249,6 +241,15 @@
   .conversion-features-wrapper {
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
+  }
+}
+
+@media (min-width:450px) and (max-width:480px){
+  .in-the-dynamic{
+    width: auto !important;
+  }
+  .m-buttons2{
+    margin-top:38%
   }
 }
 
